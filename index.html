@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form id="poke-card" action="" onsubmit="searchPokemon(event)">
+    <input type="text" name="pokemon" autocomplete="off" placeholder="Pokedex" id="poke-name">
+    <div id="img-container">
+      <img class="poke-img" id="poke-img" src="https://i.ibb.co/YpJRQdm/poke-shadow-1.png" />
+    </div>
+    <div id="poke-message">
+      <p>who's that pokemon!</p>
+
+
+      <p>"Please type the Poke-number on your keyboard and press Enter to view it."</p>
+    </div>
+    <div id="poke-id"></div>
+    <div id="poke-types"></div>
+    <div id="poke-stats"></div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
